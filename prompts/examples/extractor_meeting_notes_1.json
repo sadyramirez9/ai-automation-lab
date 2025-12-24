@@ -1,0 +1,24 @@
+{
+"decisions": [
+{
+"description": "Start sending a “Day 1 setup” email and standardize tool requests.",
+"owner": null
+}
+],
+"actions": [
+{
+"owner": "Priya",
+"action": "Draft the Day 1 email",
+"due_date": "Friday"
+},
+{
+"owner": "Alex",
+"action": "Propose checklist items",
+"due_date": null
+}
+],
+"risks_or_open_questions": [
+"If we don’t fix this, new hires lose a week of productivity.",
+"Who owns the checklist long-term? HR or IT?"
+]
+}
