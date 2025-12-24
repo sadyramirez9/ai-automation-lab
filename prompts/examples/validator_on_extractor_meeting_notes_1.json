@@ -1,0 +1,17 @@
+{
+"pass": true,
+"issues": [
+{
+"severity": "warning",
+"code": "NON_ISO_DUE_DATE",
+"message": "due_date is not in an unambiguous/standard format (e.g., ISO 8601). 'Friday' is relative and may be misinterpreted downstream.",
+"path": "actions[0].due_date"
+},
+{
+"severity": "warning",
+"code": "RELATIVE_DATE_AMBIGUITY",
+"message": "due_date uses a relative weekday without a reference date/timezone. Consider using a specific date to avoid ambiguity.",
+"path": "actions[0].due_date"
+}
+]
+}
